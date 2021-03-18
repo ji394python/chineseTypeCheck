@@ -5,6 +5,7 @@
 1. 判斷字串是否包含『簡體、繁體、簡繁都有、英文』等四種情況
 2. 輸入string、輸出boolean
 <hr>
+
   - 包含繁體：`hasTraditional()`
   - 包含簡體： `hasSimplied()`
   - 包含繁簡體：`hasBoth()`
