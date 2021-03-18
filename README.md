@@ -1,6 +1,15 @@
 # 簡中/繁中判斷器
 <hr>
 
+### 主要功能
+1. 判斷字串是否包含『簡體、繁體、簡繁都有、英文』等四種情況
+2. 輸入string、輸出boolean
+<hr>
+  - 包含繁體：`hasTraditional()`
+  - 包含簡體： `hasSimplied()`
+  - 包含繁簡體：`hasBoth()`
+  - 包含英文：`hasEnglish()`
+
 使用範例
 ```python
 import checkword as check
